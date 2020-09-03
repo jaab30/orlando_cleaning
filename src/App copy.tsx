@@ -15,10 +15,10 @@ function App() {
   // any
   // let fisrtName: any = 4;
   //void
-  const warning = (str: string) => {
-    console.log(str);
+  // const warning = (str: string) => {
+  //   console.log(str);
 
-  }
+  // }
 
 
   return (

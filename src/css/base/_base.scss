@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  background-color: $primary;
+}
+
+html {
+  // this defines what 1rem is
+  font-size: 62.5%;
+}
