@@ -1,21 +1,24 @@
 .header {
     position: relative;
-    height: 100vh;
-    background-image: linear-gradient( 
-        to right bottom, 
-        rgba($color-blue, 1), 
-        rgba($color-light-blue, .2)), 
-        url(../../images/header-back.jpg);
-    background-size: cover;
-    background-position: top;
-    clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
-    
 
+    &__content{
+        height: 100vh;
+        background-image: linear-gradient( 
+            to right bottom, 
+            rgba($color-blue, 1), 
+            rgba($color-light-blue, .2)), 
+            url(../../images/header-back.jpg);
+        background-size: cover;
+        background-position: top;
+        clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    }
+    
     &__logo{
         position: absolute;
         width: 7.5rem;
         top: 2rem;
         left: 2rem;
+        opacity: 0.9;
     }
 
     &__text-box {
