@@ -1,0 +1,51 @@
+
+// font-family: 'Lobster', cursive;
+// font-family: 'Righteous', cursive;
+// font-family: 'Roboto', sans-serif;
+
+@font-face {
+    font-family: titleFont;
+    src: url(../../fonts/JENNASUE.TTF)
+}
+
+
+.navbar {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: .4rem;
+
+    &__link:not(:last-child){
+        margin-right: 3rem;
+    }
+
+}
+
+.heading-primary {
+    color: white;
+
+    &--main {
+        display: block;
+        font-family: $title-font, cursive;
+        font-size: 12rem;
+        letter-spacing: .3rem;
+        font-weight: 400;
+        width: 100%;
+        text-shadow: .5rem .5rem 1rem rgba($color-black, .4);
+    }
+
+    &--sub {
+        display: block;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 2.5rem;
+        letter-spacing: .2rem;
+        margin-top: 10px;
+        // text-shadow: .5rem .5rem 1rem rgba($color-black, .3);
+    }
+    
+
+}
