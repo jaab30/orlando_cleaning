@@ -1,11 +1,11 @@
 import React from 'react'
-import Navbar from "../../components/Navbar";
-import ButtonPrimary from "../../components/ButtonPrimary";
-import cleaningLogo from "../../images/cleaning_logo.png"
+import Navbar from "../components/Navbar";
+import ButtonPrimary from "../components/ButtonPrimary";
+import cleaningLogo from "../images/cleaning_logo.png"
 
-export const Header = () => {
+const Header = (): any => {
     return (
-        <header className="header">
+        <header id="header" className="header">
             <header className="header__content">
                 <Navbar />
                 <div className="header__logo-box">
@@ -20,7 +20,7 @@ export const Header = () => {
                 <div className="header__social-box">
                     <i className="fab fa-facebook-f header__social-box--facebook"></i>
                     <i className="fab fa-twitter header__social-box--twitter"></i>
-                    <i class="fab fa-instagram header__social-box--instagram"></i>
+                    <i className="fab fa-instagram header__social-box--instagram"></i>
                 </div>
             </header>
             <ButtonPrimary

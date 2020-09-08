@@ -1,0 +1,28 @@
+
+.why {
+    margin-bottom: 2rem;
+    
+    &__title-box {
+        color: black;
+        font-family: 'Roboto', sans-serif;
+    }
+    &__title {
+        @include headingPrimary
+    }
+
+
+    &__cards {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
+
+
+
+
+
+
+
+}

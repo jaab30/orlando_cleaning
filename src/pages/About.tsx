@@ -1,13 +1,13 @@
 import React from 'react';
-import Ribbon from "../../components/Ribbon";
-import bookImg from "../../images/calendar_icon.png"
-import cleanImg from "../../images/about_room.png"
-import relaxImg from "../../images/relax2c.png"
-import aboutIcon from "../../images/about_icon.png"
+import Ribbon from "../components/Ribbon";
+import bookImg from "../images/calendar_icon_final.png"
+import cleanImg from "../images/room_icon_final.png"
+import relaxImg from "../images/relax_icon_final.png"
+import aboutIcon from "../images/about_icon_100.png"
 
-export const About = () => {
+const About = (): any => {
     return (
-        <section className="about">
+        <section id="about" className="about">
             <div className="about__icon">
                 <img className="about__icon--img" src={aboutIcon} />
             </div>
@@ -21,14 +21,17 @@ export const About = () => {
                 <Ribbon
                     title="book"
                     image={bookImg}
+                    num="1"
                 />
                 <Ribbon
                     title="clean"
                     image={cleanImg}
+                    num="2"
                 />
                 <Ribbon
                     title="relax"
                     image={relaxImg}
+                    num="3"
                 />
             </div>
 

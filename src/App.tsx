@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import Header from "./pages/Header";
-import About from "./pages/About";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Main from "./pages/Main";
 import './css/main.scss';
 
-function App() {
+function App(): any {
 
   const [user, setUser] = useState("");
 
@@ -14,10 +14,11 @@ function App() {
   }, [])
 
   return (
-    <div className="">
-      <Header />
-      <About />
-    </div>
+    <Router>
+      <div className="">
+        <Route path="/" exact component={Main} />
+      </div>
+    </Router>
   );
 }
 
