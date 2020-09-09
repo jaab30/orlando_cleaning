@@ -1,11 +1,23 @@
 
 .why {
+    padding-top: 2rem;
     margin-bottom: 2rem;
+    // background-color: rgba($color-tan, .3);
+
+    &__icon-box {
+        text-align: center;
+    }
+
+    &__icon {
+        width: 10rem;
+    }
     
     &__title-box {
         color: black;
         font-family: 'Roboto', sans-serif;
+        padding-top: 1.8rem;
     }
+
     &__title {
         @include headingPrimary
     }

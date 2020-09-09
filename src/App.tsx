@@ -1,17 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Main from "./pages/Main";
 import './css/main.scss';
 
 function App(): any {
-
-  const [user, setUser] = useState("");
-
-  useEffect(() => {
-
-    setUser("John");
-
-  }, [])
 
   return (
     <Router>

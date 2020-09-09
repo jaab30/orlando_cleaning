@@ -6,7 +6,7 @@ import cleaningLogo from "../images/cleaning_logo.png"
 const Header = (): any => {
     return (
         <header id="header" className="header">
-            <header className="header__content">
+            <div className="header__content">
                 <Navbar />
                 <div className="header__logo-box">
                     <img className="header__logo" src={cleaningLogo} alt="Orlando Cleaning Logo Icon" />
@@ -22,7 +22,7 @@ const Header = (): any => {
                     <i className="fab fa-twitter header__social-box--twitter"></i>
                     <i className="fab fa-instagram header__social-box--instagram"></i>
                 </div>
-            </header>
+            </div>
             <ButtonPrimary
                 title="free estimate"
                 target="#"

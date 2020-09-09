@@ -8,7 +8,7 @@ const Navbar = (): any => {
                 <Link className="navbar__link" to="/#header">home</Link>
                 <Link className="navbar__link" to="/#about">about</Link>
                 <Link className="navbar__link" to="/#why">why</Link>
-                <Link className="navbar__link" to="#">services</Link>
+                <Link className="navbar__link" to="/#package">services</Link>
                 <Link className="navbar__link" to="#">contact</Link>
             </div>
         </nav>

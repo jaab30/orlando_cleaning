@@ -1,0 +1,27 @@
+[
+    {
+        "image": "images/efficiency.png",
+        "title": "Efficiency",
+        "price": "$85.00"
+    },
+    {
+        "image": "images/1-bedroom.png",
+        "title": "1 Bedroom",
+        "price": "$100.00"
+    },
+    {
+        "image": "images/2-bedroom.png",
+        "title": "2 Bedrooms",
+        "price": "$125.00"
+    },
+    {
+        "image": "images/3-bedroom.png",
+        "title": "3 Bedrooms",
+        "price": "$150.00"
+    },
+    {
+        "image": "images/4-bedroom.png",
+        "title": "4 Bedrooms",
+        "price": "$175.00"
+    }
+]

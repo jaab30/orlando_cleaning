@@ -9,7 +9,7 @@ const About = (): any => {
     return (
         <section id="about" className="about">
             <div className="about__icon">
-                <img className="about__icon--img" src={aboutIcon} />
+                <img className="about__icon--img" src={aboutIcon} alt="cleaning icon" />
             </div>
             <div className="about__content">
                 <h3 className="about__content--title">Professional cleaning service, with a personal touch</h3>
