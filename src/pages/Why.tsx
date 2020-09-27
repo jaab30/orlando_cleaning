@@ -30,7 +30,6 @@ const Why = (): any => {
             <div className="why__cards">
                 {renderReasons()}
             </div>
-
         </div>
     )
 }
